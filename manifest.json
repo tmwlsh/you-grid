@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "YouGrid",
+  "version": "1.0.0",
+  "description": "Change the number of items in the YouTube grid",
+  "action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "24": "images/icon24.png",
+      "32": "images/icon32.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting"]
+}

@@ -1,0 +1,7 @@
+ytd-rich-grid-row #contents.ytd-rich-grid-row {
+  flex-wrap: wrap !important;
+}
+
+ytd-rich-grid-row #contents.ytd-rich-grid-row ytd-rich-item-renderer {
+  flex: 0 0 calc(23% - 15px) !important;
+}
